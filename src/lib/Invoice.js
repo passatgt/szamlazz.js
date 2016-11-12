@@ -61,7 +61,7 @@ class Invoice {
       [ 'szamlaNyelve', this._options.language.value ],
       [ 'megjegyzes', this._options.comment ],
       [ 'arfolyamBank', this._options.exchangeRateBank ],
-      [ 'arfolyam', thi._options.exchangeRate ],
+      [ 'arfolyam', this._options.exchangeRate ],
       [ 'rendelesSzam', this._options.orderNumber ],
       // ['elolegszamla', ],
       // ['vegszamla', ],
