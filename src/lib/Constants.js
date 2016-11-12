@@ -79,7 +79,8 @@ exports.setup = function (_module) {
   _module.PaymentMethod = {
     Cash: new PaymentMethod('Készpénz', 'cash'),
     BankTransfer: new PaymentMethod('Átutalás', 'bank transfer'),
-    CreditCard: new PaymentMethod('Bankkártya', 'credit card')
+    CreditCard: new PaymentMethod('Credit Card', 'credit card'),
+    PayPal: new PaymentMethod('PayPal', 'paypal')
   }
 
   _module.Interface = { Currency, Language, PaymentMethod }
